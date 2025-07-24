@@ -2,4 +2,55 @@
  7-28-2025
  Guided Inquiry #7 */
 
- 
+ /* Colors that I want to use: Pastel Colors*/
+ /* #b9e192 : black text*/ /* #cfebb6 : black text*/ /* #b3c7f7 : black text*/
+ /* #f8b8d0 : black text*/ /* #f194b8 : black text*/ /*#d9e4ff: black text*/
+ body{
+    background-color: #5ba300;
+    font-family: system-ui;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#pun{
+    top: 0;
+    position: absolute;
+    color: black;
+    text-align: center;
+}
+#calc-container{
+    background-color: #b3c7f7;
+    border-radius: 10px;
+    max-width: 315px;
+    overflow: hidden;
+}
+#calc-display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    border: none;
+    background-color: #d9e4ff;
+    color: black;
+    text-align: right;
+}
+#calc-btn{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 40px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #f194b8 ;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+} button:hover{
+    opacity: 50%;
+}
