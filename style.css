@@ -3,8 +3,10 @@
  Guided Inquiry #7 */
 
  /* Colors that I want to use: Pastel Colors*/
- /* #b9e192 : black text*/ /* #cfebb6 : black text*/ /* #b3c7f7 : black text*/
- /* #f8b8d0 : black text*/ /* #f194b8 : black text*/ /*#d9e4ff: black text*/
+ /* #b1cf92 #97caa2 #8dc7af #8bc0ca #8eaadf
+ #df9cb6 #ecbdcf #d5eee3 #b2dac9 #8dc7af
+ #e9b590 #f3cdb5  #b2dac9 #c5bbee*/
+
  body{
     background-color: #5ba300;
     font-family: system-ui;
@@ -20,22 +22,25 @@
     color: black;
     text-align: center;
 }
-#calc-container{
-    background-color: #b3c7f7;
+#calcContainer{
+    background-color: #a897e2;
     border-radius: 10px;
     max-width: 315px;
     overflow: hidden;
 }
-#calc-display{
-    width: 100%;
-    padding: 20px;
-    font-size: 5rem;
-    border: none;
-    background-color: #d9e4ff;
-    color: black;
+#calcDisplay{
     text-align: right;
+    width: 90%;
+    padding: 20px 300px 20px 20px;
+    /* padding-right:200px; */
+    /* margin: auto; */
+    font-size: 2rem;
+    border: none;
+    background-color: #c5bbee;
+    color: black;
+    overflow: hidden;
 }
-#calc-btn{
+#calcBtn{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
@@ -46,11 +51,26 @@ button{
     height: 50px;
     border-radius: 30px;
     border: none;
-    background-color: #f194b8 ;
+    background-color: #df9cb6;
     color: black;
+    font-family: calc-font;
     font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
 } button:hover{
-    opacity: 50%;
+    opacity: 80%;
+ }button:active{
+    background-color: #ecbdcf;
+}
+.operator-btn{
+    background-color: #8bc0ca;
+}.operator-btn:hover{
+     opacity: 80%;
+} .operator-btn:active{
+     background-color: #8dc7af;
+}
+
+@font-face {
+    font-family: calc-font;
+    src: url(fonts/digital-7.ttf);
 }

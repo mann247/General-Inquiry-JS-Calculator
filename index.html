@@ -7,34 +7,34 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manning: Calculator</title>
+    <title>Manning:Calculator</title>
     <link rel="stylesheet" href="style.css">
  </head>
  <body>
    
    <div id="pun">
-       <h1><i>I told my calculator it was my best friend; it replied, “That’s a solid equation!”</i></h1>
+       <h1><i>I told my calculator it was my best friend; it replied, “That's a solid equation!”</i></h1>
    </div>
    <!-- calculator encasing-->
-      <div id="calc-container">
+      <div id="calcContainer">
          <!-- User Input Screen-->
-          <input id= "calc-display" readonly> <!-- ensures that user can not type in calculator display-->
+          <input id= "calcDisplay" readonly> <!-- ensures that user can not type in calculator display-->
          <!-- Calculator Buttons-->
          <!-- A/C +/- % ÷
                7, 8, 9, x 
                4, 5, 6, -
                1, 2, 3, +
                () 0, ., =  -->
-         <div id="calc-btn">
-         <button onclick="clear()"> AC </button> <!-- AC -->
-         <button onclick="appendToDisplay('+/-')"> +/- </button> <!-- +/- -->
-         <button onclick="appendToDisplay('%')"> % </button><!-- % -->
-         <button onclick="appendToDisplay('÷')" class="operator-btn"> ÷ </button> <!-- ÷ -->
+         <div id="calcBtn">
+         <button onclick="clearDisplay()"> AC </button> <!-- AC -->
+         <button onclick="changeSign()"> +/- </button> <!-- +/-, calculate -->
+         <button onclick="percentDec()"> % </button><!-- %, calculate-->
+         <button onclick="appendToDisplay('/')" class="operator-btn"> / </button> <!-- ÷ -->
 
          <button onclick="appendToDisplay('7')"> 7 </button> <!-- 7 -->
          <button onclick="appendToDisplay('8')"> 8 </button> <!-- 8 -->
          <button onclick="appendToDisplay('9')"> 9 </button> <!-- 9 -->
-         <button onclick="appendToDisplay('x')" class="operator-btn"> x </button> <!-- x -->
+         <button onclick="appendToDisplay('*')" class="operator-btn"> * </button> <!-- x -->
 
          <button onclick="appendToDisplay('4')"> 4 </button> <!-- 4-->
          <button onclick="appendToDisplay('5')"> 5 </button> <!-- 5-->
@@ -46,10 +46,10 @@
          <button onclick="appendToDisplay('3')"> 3 </button> <!-- 3 -->
          <button onclick="appendToDisplay('+')" class="operator-btn"> + </button> <!-- + -->
          
-         <button onclick="appendToDisplay('()')"> () </button> <!-- () -->
+         <button onclick="piCalc()"> π </button> <!-- pi -->
          <button onclick="appendToDisplay('0')"> 0 </button> <!-- 0 -->
          <button onclick="appendToDisplay('.')"> . </button> <!-- . -->
-         <button onclick="calculate()"> = </button> <!-- = -->
+         <button onclick="calculate()" class="operator-btn"> = </button> <!-- = -->
          </div>
       </div>
 <script src="calc.js"> </script>
