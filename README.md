@@ -42,5 +42,5 @@ Calculations:
 
 # Errors
 Should the user encounter an error.
-1. User has to select #'s 0-9 before selecting the pos/neg, pi, equal sign, and percentage buttons.
+1. User has to select #'s 0-9 before selecting the pos/neg, pi, equal sign, percentage, and/or any of the operator buttons.
 2. User can not divide a number by 0.
