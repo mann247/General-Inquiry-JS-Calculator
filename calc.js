@@ -25,7 +25,7 @@ function appendToDisplay(input){ /* Puts calculations on the screen */
         console.log("is it positive? or negative?")
     }else{
         calcDisplay.value = 'Error';
-        alert('Invalid input! Please click buttons 0-9.');
+        alert('Invalid input! Please click buttons 0-9 to continue.');
         console.log("invalid input");
     }
  }
@@ -39,7 +39,7 @@ function appendToDisplay(input){ /* Puts calculations on the screen */
         console.log("percentages.");
     }else{
         calcDisplay.value = 'Error';
-        alert('Invalid input! Please click buttons 0-9.');
+        alert('Invalid input! Please click buttons 0-9 to continue.');
         console.log("invalid input");
     }
  }
@@ -53,7 +53,7 @@ multiplies user input by Pi.*/
         console.log("pi time");
     }else{
         calcDisplay.value = 'Error';
-        alert('Invalid input! Please click buttons 0-9.');
+        alert('Invalid input! Please click buttons 0-9 to continue.');
         console.log("invalid input");
     }
  }
@@ -66,19 +66,19 @@ multiplies user input by Pi.*/
             calcDisplay.value = 'Error';
             alert('Invalid input! Number can not be divided by 0.');
             console.log("cannot divide by 0.");
-        } else{
+        }else{
             calcDisplay.value = eval(calcDisplay.value);
             console.log("equals");
         }
     /* Prints out an error alert if user clicks equal button with no input*/
         if(input.trim() === ""){
             calcDisplay.value = 'Error';
-            alert('Invalid input! Please click buttons 0-9.');
+            alert('Invalid input! Please click buttons 0-9 to continue.');
             console.log("equals");
         }
     /* Prints out an error alert in case something is misclicked*/
     } catch (error) {
-        alert('Invalid input! Please click buttons 0-9.');
+        alert('Invalid input! Please click buttons 0-9 to continue.');
         console.log("invalid input");
     }
  }
