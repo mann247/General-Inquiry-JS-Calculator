@@ -25,6 +25,7 @@ How to use?
 2. Once you find the solution to the problem, the user can do the following: 
     a. Use the AC or DEL button to input a new math problem.
     b. Use the solution from the previous math problem to create a new equation
+** Note: The pi, and percentage button do not require you do use the equal sign. Your solution should automatically update when you input a number and click the corresponding button.
 
 # Math Problem Examples: 
 ** [] : brackets indicate which button to click **
