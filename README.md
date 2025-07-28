@@ -1,6 +1,6 @@
 # General-Inquiry-JS-Calculator
 
-# Welcome to Nia Manning's Calculator!!! 
+# Welcome to N. Manning's Calculator!!! 
 
 Before you begin reading... I hope you enjoyed the nice pun across the top of the page!! 😁
 
@@ -25,10 +25,10 @@ How to use?
 2. Once you find the solution to the problem, the user can do the following: 
     a. Use the AC or DEL button to input a new math problem.
     b. Use the solution from the previous math problem to create a new equation
-** Note: The pi, and percentage button do not require you do use the equal sign. Your solution should automatically update when you input a number and click the corresponding button.
+** Note: You do not need to press the equal sign after selecting the Pi or percentage button, your solution will display automatically when clicking the corresponding button.
 
 # Math Problem Examples: 
-** [] : brackets indicate which button to click **
+** [] : brackets indicate which button to click when using the calculator. **
 
 Calculations:
 1. 8 + 9 = 17   >>>   8 [+] 9 [=]
