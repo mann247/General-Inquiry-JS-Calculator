@@ -1,8 +1,4 @@
-# General-Inquiry-JS-Calculator
-
-# Welcome to N. Manning's Calculator!!! 
-
-Before you begin reading... I hope you enjoyed the nice pun across the top of the page!! 😁
+# Calculator App
 
 This simple calculator performs similarly to a small handheld calculator. The user can use this simple calculator to complete math problems using addition, subtraction, multiplication, and division.
 The Calculator also includes functions for percentages, pi, and includes a button where the user can toggle the positive/negative sign of the displayed number.
